@@ -1,0 +1,21 @@
+<mxfile host="app.diagrams.net" modified="2026-10-14T00:00:00.000Z" agent="Codex" version="24.7.17">
+  <diagram id="real-capacitor" name="Page-1">
+    <mxGraphModel dx="900" dy="300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="300" math="1" shadow="0">
+      <root><mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="title" value="実在キャパシタの高周波等価回路" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1"><mxGeometry x="150" y="25" width="600" height="36" as="geometry"/></mxCell>
+        <mxCell id="left" value="" style="ellipse;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="80" y="174" width="10" height="10" as="geometry"/></mxCell>
+        <mxCell id="right" value="" style="ellipse;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="810" y="174" width="10" height="10" as="geometry"/></mxCell>
+        <mxCell id="res" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="195" y="155" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="lblres" value="R&lt;sub&gt;ESR&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;strokeColor=none;fillColor=none;" vertex="1" parent="1"><mxGeometry x="215" y="110" width="80" height="30" as="geometry"/></mxCell>
+        <mxCell id="ind" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.inductors.inductor_3;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="395" y="155" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="lblind" value="L&lt;sub&gt;ESL&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;strokeColor=none;fillColor=none;" vertex="1" parent="1"><mxGeometry x="410" y="110" width="80" height="30" as="geometry"/></mxCell>
+        <mxCell id="cap" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.capacitors.capacitor_1;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="595" y="155" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="lblcap" value="C" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=2;strokeColor=none;fillColor=none;" vertex="1" parent="1"><mxGeometry x="625" y="110" width="50" height="30" as="geometry"/></mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;" edge="1" parent="1" source="left" target="res"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;" edge="1" parent="1" source="res" target="ind"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;" edge="1" parent="1" source="ind" target="cap"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=2;" edge="1" parent="1" source="cap" target="right"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
